@@ -361,3 +361,39 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# ASP.NET Core / MVC build outputs
+wwwroot/dist/
+wwwroot/build/
+
+# Secret / environment-specific config
+appsettings.*.json
+
+# dotnet CLI artifacts
+*.dotnet/
+
+# NuGet global packages folder
+.nuget/
+
+# Yarn / NPM dependencies (if using front-end tooling)
+node_modules/
+
+# Application logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local database files
+*.mdf
+*.ldf
+*.ndf
+
+# EF Core Migrations snapshot (optional if you want to ignore local migration artifacts)
+# Migrations/*.Designer.cs
+
+# VS Code
+.vscode/
+/MovieTicketMVC/appsettings.json
