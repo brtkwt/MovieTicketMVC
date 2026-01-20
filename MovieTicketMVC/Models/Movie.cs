@@ -14,6 +14,8 @@ namespace MovieTicketMVC.Models
 		public DateTime StartDate { get; set; }
 		public DateTime EndDate { get; set; }
 		public double Price { get; set; }
+
+		[Display(Name = "Picture")]
 		public string PictureUrl { get; set; }
 
 		// MovieTheater
