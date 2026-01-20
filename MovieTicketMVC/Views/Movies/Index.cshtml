@@ -7,14 +7,14 @@
 }
 
 @* Write Code *@
-<div class="row">
+<div class="row justify-content-center">
     @foreach (var movieItem in Model)
     {
-        <div class="col-md-4 col-xs-6 col-md-3 border-primary mb-3">
-            <div class="card mb-3" style="max-width: 540px;">
+        <div class="col-md-4 col-6 mb-3">
+            <div class="card mb-3 mx-auto" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="col-md-12">
-                        <div class="card-header text-white bg-info">
+                        <div class="card-header text-white bg-dark">
                             <p class="card-text">
                                 <h5 class="card-title">
                                     @movieItem.Title
@@ -24,15 +24,15 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="@movieItem.PictureUrl" width="100%" alt="@movieItem.Title">
+                        <img src="@movieItem.PictureUrl" class="img-fluid" alt="@movieItem.Title" style="height:280px">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
                             <p class="card-text">@movieItem.Description</p>
-                            <p class="card-text"><b>Movie Theater: </b>@movieItem.MovieTheater.Name</p>
                             <p class="card-text"><b>Category: </b>@movieItem.Category</p>
-                            <p class="card-text"><b>Start Date: </b>@movieItem.StartDate.ToString("ddMMMyyyy")</p>
-                            <p class="card-text"><b>End Date: </b>@movieItem.EndDate.ToString("ddMMMyyyy")</p>
+                            <p class="card-text"><b>Movie Theater: </b>@movieItem.MovieTheater.Name</p>
+                            <p class="card-text"><b>Start Date: </b>@movieItem.StartDate.ToString("dd.mm.yyyy")</p>
+                            <p class="card-text"><b>End Date: </b>@movieItem.EndDate.ToString("dd.mm.yyyy")</p>
                             <p class="card-text">
                                 <b>Status: </b>
                                 @if (DateTime.Now >= movieItem.StartDate && DateTime.Now <= movieItem.EndDate)
@@ -61,7 +61,7 @@
                         <div class="card-footer ">
                             <p class="card-text">
                                 <a class="btn btn-outline-primary float-end"><i class="bi bi-eye-fill"></i> Show Details</a>
-                                <a class="btn btn-success text-white"><i class="bi bi-cart-plus"></i> Add to Cart (Price @movieItem.Price.ToString("c"))</a>
+                                <a class="btn btn-warning text-dark"><i class="bi bi-cart-plus"></i> Add to Cart (Price @movieItem.Price.ToString("c"))</a>
                             </p>
                         </div>
                     </div>
