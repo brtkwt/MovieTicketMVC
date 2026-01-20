@@ -60,32 +60,32 @@ namespace MovieTicketMVC.Models.Data
 						{
 							FullName = "Producer 1",
 							Biography = "Biography of the first producer",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/producers/producer1.png"
 
 						},
 						new Producer()
 						{
 							FullName = "Producer 2",
 							Biography = "Biography of the second producer",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/producers/producer2.png"
 						},
 						new Producer()
 						{
 							FullName = "Producer 3",
 							Biography = "Biography of the third producer",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/producers/producer3.png"
 						},
 						new Producer()
 						{
 							FullName = "Producer 4",
 							Biography = "Biography of the fourth producer",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/producers/producer4.png"
 						},
 						new Producer()
 						{
 							FullName = "Producer 5",
 							Biography = "Biography of the fifth producer",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/producers/producer5.png"
 						}
 					});
 					context.SaveChanges();
