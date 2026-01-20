@@ -22,32 +22,32 @@ namespace MovieTicketMVC.Models.Data
 						{
 							FullName = "Actor 1",
 							Biography = "Biography of the first actor",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/actors/actor1.jpg"
 
 						},
 						new Actor()
 						{
 							FullName = "Actor 2",
 							Biography = "Biography of the second actor",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/actors/actor2.png"
 						},
 						new Actor()
 						{
 							FullName = "Actor 3",
 							Biography = "Biography of the third actor",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/actors/actor3.png"
 						},
 						new Actor()
 						{
 							FullName = "Actor 4",
 							Biography = "Biography of the fourth actor",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/actors/actor4.png"
 						},
 						new Actor()
 						{
 							FullName = "Actor 5",
 							Biography = "Biography of the fifth actor",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/actors/actor5.png"
 						}
 					});
 					context.SaveChanges();
