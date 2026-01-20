@@ -6,10 +6,12 @@ namespace MovieTicketMVC.Models
 	{
 		[Key]
 		public int Id { get; set; }
-		[Required]
+
+		[Required, Display(Name = "Full Name")]
 		public string FullName { get; set; }
 		public string Biography { get; set; }
-		[Required]
+
+		[Required, Display(Name = "Picture Url")]
 		public string PictureUrl { get; set; }
 	}
 }

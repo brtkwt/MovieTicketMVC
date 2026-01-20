@@ -18,7 +18,7 @@ namespace MovieTicketMVC.Controllers
 		public async Task<IActionResult> Index()
 		{
 			var allActors = await _databaseContext.Actors.ToListAsync();
-			return View();
+			return View(allActors);
 		}
 	}
 }
