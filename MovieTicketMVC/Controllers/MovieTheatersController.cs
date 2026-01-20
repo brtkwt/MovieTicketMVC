@@ -4,6 +4,7 @@ using MovieTicketMVC.Models.Data;
 
 namespace MovieTicketMVC.Controllers
 {
+	[Route("movie-theaters")]
 	public class MovieTheatersController : Controller
 	{
 		private readonly ILogger<MovieTheatersController> _logger;
