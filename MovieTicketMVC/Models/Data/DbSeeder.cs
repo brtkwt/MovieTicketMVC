@@ -98,31 +98,31 @@ namespace MovieTicketMVC.Models.Data
 						{
 							Name = "MovieTheater 1",
 							Description = "Description of the first movie theater",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/movie-theaters/movie-theater1.png"
 						},
 						new MovieTheater()
 						{
 							Name = "MovieTheater 2",
 							Description = "Description of the second movie theater",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/movie-theaters/movie-theater2.jpeg"
 						},
 						new MovieTheater()
 						{
 							Name = "MovieTheater 3",
 							Description = "Description of the third movie theater",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/movie-theaters/movie-theater3.png"
 						},
 						new MovieTheater()
 						{
 							Name = "MovieTheater 4",
 							Description = "Description of the fourth movie theater",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/movie-theaters/movie-theater4.png"
 						},
 						new MovieTheater()
 						{
 							Name = "MovieTheater 5",
 							Description = "Description of the fifth movie theater",
-							PictureUrl = "http://test.jpeg"
+							PictureUrl = "/images/movie-theaters/movie-theater5.png"
 						},
 					});
 					context.SaveChanges();
