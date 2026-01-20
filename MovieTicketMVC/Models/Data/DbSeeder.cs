@@ -134,7 +134,7 @@ namespace MovieTicketMVC.Models.Data
 						new Movie()
 						{
 							Title = "Life on earth",
-							Description = "A documentary exploring the origins, evolution, and diversity of life across our planet.",
+							Description = "This is Life on earth movie description.",
 							Price = 29.99,
 							PictureUrl = "/images/movies/movie1.png",
 							StartDate = DateTime.Now.AddDays(-5),
@@ -146,7 +146,7 @@ namespace MovieTicketMVC.Models.Data
 						new Movie()
 						{
 							Title = "Steel Horizon",
-							Description = "A former special forces soldier must stop a rogue group from using a satellite weapon to trigger global chaos.",
+							Description = "This is Steel Horizon movie description.",
 							Price = 34.99,
 							PictureUrl = "/images/movies/movie2.png",
 							StartDate = DateTime.Now,
@@ -158,7 +158,7 @@ namespace MovieTicketMVC.Models.Data
 						new Movie()
 						{
 							Title = "Whispers in the Dark",
-							Description = "A group of friends uncover a sinister presence after spending a night in an abandoned house.",
+							Description = "This is Whispers in the Dark movie description.",
 							Price = 17.50,
 							PictureUrl = "/images/movies/movie3.png",
 							StartDate = DateTime.Now.AddDays(1),
@@ -170,7 +170,7 @@ namespace MovieTicketMVC.Models.Data
 						new Movie()
 						{
 							Title = "Driven to the Limit",
-							Description = "A documentary following the passion, technology, and risks behind professional racing.",
+							Description = "This is Driven to the Limit movie description.",
 							Price = 42.00,
 							PictureUrl = "/images/movies/movie4.png",
 							StartDate = DateTime.Now.AddDays(-15),
@@ -182,7 +182,7 @@ namespace MovieTicketMVC.Models.Data
 						new Movie()
 						{
 							Title = "Wild Footsteps",
-							Description = "A relaxing animated journey following the daily lives and hidden stories of animals in the wild.",
+							Description = "This is Wild Footsteps movie description.",
 							Price = 37.60,
 							PictureUrl = "/images/movies/movie5.png",
 							StartDate = DateTime.Now.AddDays(-8),
@@ -194,7 +194,7 @@ namespace MovieTicketMVC.Models.Data
 						new Movie()
 						{
 							Title = "Hearts in Bloom",
-							Description = "Two strangers meet by chance and navigate love, heartbreak, and second chances in a bustling city.",
+							Description = "This is Hearts in Bloom movie description.",
 							Price = 26.99,
 							PictureUrl = "/images/movies/movie6.png",
 							StartDate = DateTime.Now.AddDays(4),
@@ -206,7 +206,7 @@ namespace MovieTicketMVC.Models.Data
 						new Movie()
 						{
 							Title = "Late Again!",
-							Description = "A chronically late man tries to turn his life around, but everything that can go wrong… does.",
+							Description = "This is Late Again! movie description.",
 							Price = 39.99,
 							PictureUrl = "/images/movies/movie7.png",
 							StartDate = DateTime.Now.AddDays(-4),
@@ -218,7 +218,7 @@ namespace MovieTicketMVC.Models.Data
 						new Movie()
 						{
 							Title = "Quantum Drift",
-							Description = "A scientist discovers a portal to alternate realities and must fix the timeline before it collapses.",
+							Description = "This is Quantum Drift movie description.",
 							Price = 17.00,
 							PictureUrl = "/images/movies/movie8.png",
 							StartDate = DateTime.Now.AddDays(-1),
@@ -230,7 +230,7 @@ namespace MovieTicketMVC.Models.Data
 						new Movie()
 						{
 							Title = "Dust and Justice",
-							Description = "A lone sheriff defends a frontier town from outlaws while confronting his own troubled past.",
+							Description = "This is Dust and Justice movie description.",
 							Price = 24.99,
 							PictureUrl = "/images/movies/movie9.png",
 							StartDate = DateTime.Now.AddDays(-15),
