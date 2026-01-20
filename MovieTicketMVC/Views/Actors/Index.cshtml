@@ -11,7 +11,7 @@
     <div class="col-md-8 offset-md-2">
         <table class="table">
             <thead>
-                <tr>
+                <tr class="text-center">
                     <th>@Html.DisplayNameFor(m => m.PictureUrl)</th>
                     <th>@Html.DisplayNameFor(m => m.FullName)</th>
                     <th>@Html.DisplayNameFor(m => m.Biography)</th>
@@ -21,7 +21,7 @@
             <tbody>
                 @foreach (var actor in Model)
                 {
-                    <tr>
+                    <tr class="text-center">
                         <td class="align-middle">
                             <img class="rounded-circle" src="@actor.PictureUrl" alt="@actor.FullName" style="max-width: 150px"/>
                         </td>
