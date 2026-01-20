@@ -10,7 +10,7 @@ namespace MovieTicketMVC.Models
 		public string Name { get; set; }
 		public string Description { get; set; }
 
-		[Display(Name = "Movie theater picture")]
+		[Display(Name = "Picture")]
 		public string PictureUrl { get; set; }
 
 		// Movies

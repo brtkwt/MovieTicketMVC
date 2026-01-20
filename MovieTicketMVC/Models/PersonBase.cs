@@ -7,11 +7,11 @@ namespace MovieTicketMVC.Models
 		[Key]
 		public int Id { get; set; }
 
-		[Required, Display(Name = "Full Name")]
+		[Required, Display(Name = "Full name")]
 		public string FullName { get; set; }
 		public string Biography { get; set; }
 
-		[Required, Display(Name = "Picture Url")]
+		[Required, Display(Name = "Picture")]
 		public string PictureUrl { get; set; }
 	}
 }
