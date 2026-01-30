@@ -15,6 +15,7 @@ namespace MovieTicketMVC.Controllers
 			_databaseContext = databaseContext;
 		}
 
+		// Get /Movies
 		public async Task<IActionResult> Index()
 		{
 			var allMovies = await _databaseContext.Movies.Include(p => p.MovieTheater).OrderBy(p => p.Title).ToListAsync();
