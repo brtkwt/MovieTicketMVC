@@ -27,16 +27,25 @@
                             </a>
                         </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="bi bi-gear"></i> Menu
+                        <li class="navbar-nav">
+                            <a class="nav-link text-dark" asp-controller="MovieTheaters" asp-action="Index">
+                                <i class="badge-info bi-camera-reels"></i>
+                                Movie Theaters
                             </a>
+                        </li>
 
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" asp-controller="MovieTheaters" asp-action="Index"><i class="bi bi-camera-reels"></i> Movie Theaters</a>
-                                <a class="dropdown-item" asp-controller="Producers" asp-action="Index"><i class="bi bi-vector-pen"></i> Producers</a>
-                                <a class="dropdown-item" asp-controller="Actors" asp-action="Index"><i class="bi bi-person-square"></i> Actors</a>
-                            </div>
+                        <li class="navbar-nav">
+                            <a class="nav-link text-dark" asp-controller="Actors" asp-action="Index">
+                                <i class="badge-info bi-person-square"></i>
+                                Actors
+                            </a>
+                        </li>
+
+                        <li class="navbar-nav">
+                            <a class="nav-link text-dark" asp-controller="Producers" asp-action="Index">
+                                <i class="badge-info bi-vector-pen"></i>
+                                Producers
+                            </a>
                         </li>
                     </ul>
 
