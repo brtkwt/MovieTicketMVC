@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MovieTicketMVC.Data;
+using MovieTicketMVC.Services;
+using MovieTicketMVC.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,8 @@ builder.Services.AddCors();
 builder.Services.AddDbContext<DatabaseContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
+
+builder.Services.AddScoped<IActorsService, ActorsService>();
 
 var app = builder.Build();
 
