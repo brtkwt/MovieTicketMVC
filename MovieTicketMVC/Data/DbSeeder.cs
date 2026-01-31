@@ -1,6 +1,7 @@
-﻿using MovieTicketMVC.Models.Data.Enums;
+﻿using MovieTicketMVC.Models;
+using MovieTicketMVC.Models.Enums;
 
-namespace MovieTicketMVC.Models.Data
+namespace MovieTicketMVC.Data
 {
 	public class DbSeeder
 	{

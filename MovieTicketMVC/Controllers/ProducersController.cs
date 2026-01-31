@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using MovieTicketMVC.Models.Data;
+using MovieTicketMVC.Data;
 
 namespace MovieTicketMVC.Controllers
 {

@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using MovieTicketMVC.Services.Interfaces;
 using MovieTicketMVC.Models.Data;
 
 namespace MovieTicketMVC.Controllers

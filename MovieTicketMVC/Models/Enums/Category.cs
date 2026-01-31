@@ -1,4 +1,4 @@
-﻿namespace MovieTicketMVC.Models.Data.Enums
+﻿namespace MovieTicketMVC.Models.Enums
 {
 	public enum Category
 	{

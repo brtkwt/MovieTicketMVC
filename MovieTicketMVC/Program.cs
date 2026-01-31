@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using MovieTicketMVC.Models.Data;
+using MovieTicketMVC.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

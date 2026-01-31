@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MovieTicketMVC.Models;
 
-namespace MovieTicketMVC.Models.Data
+namespace MovieTicketMVC.Data
 {
 	public class DatabaseContext : DbContext
 	{

@@ -1,4 +1,4 @@
-﻿using MovieTicketMVC.Models.Data.Enums;
+﻿using MovieTicketMVC.Models.Enums;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
