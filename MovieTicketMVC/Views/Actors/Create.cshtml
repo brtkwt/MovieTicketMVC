@@ -1,0 +1,61 @@
+﻿@* Define Model *@
+@model Actor
+
+@* Define View Data *@
+@{
+	ViewData["Title"] = "Create Actor";
+}
+
+<div class="row">
+	<div class="col-md-8 offset-md-2">
+		<p>
+			<h1 class="text-center">Create a new Actor</h1>
+		</p>
+
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
+				<form asp-action="Create">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				</form>
+
+				<div class="mb-3 text-center">
+					<img id="PicturePreview" />
+				</div>
+
+				<div class="mb-3">
+					<label asp-for="PictureUrl" class="form-label"></label>
+					<input asp-for="PictureUrl" class="form-control"/>
+					<span asp-validation-for="PictureUrl" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<label asp-for="FullName" class="control-label"></label>
+					<input asp-for="FullName" class="form-control"/>
+					<span asp-validation-for="FullName" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<label asp-for="Biography" class="control-label"></label>
+					<input asp-for="Biography" class="form-control"/>
+					<span asp-validation-for="Biography" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3">
+					<input type="submit" value="Create" class="btn btn-outline-success float-end"/>
+					<a class="btn btn-outline-secondary" asp-action="Index">Show all</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+@* Scripts *@
+@section Scripts{
+	<script>
+		$("#PictureUrl").on("change", function (){
+			var output = document.getElementById("PicturePreview")
+			output.src = $(this).val();
+		})
+	</script>
+}
